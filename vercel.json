@@ -1,0 +1,12 @@
+{
+    "routes": [
+      {
+        "src": "/api/*",
+        "dest": "https://miasesor.tech/react", 
+        "headers": {
+          "Access-Control-Allow-Origin": "*"
+        }
+      }
+    ]
+  }
+  
